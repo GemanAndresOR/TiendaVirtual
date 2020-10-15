@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle productos</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+
+    <!-- Iconos fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="ventanaEmergente"></div>
+    <nav>
+        <img src="../images/logo.JPG" alt="">
+    </nav>
+    <div class="slideshow">
+        <ul class="slider" style="padding: 0; margin: 0;">
+            <li class="li-dark">
+                <img src="../images/slider/i1.jpg">
+                <section class="caption">
+                </section>
+            </li>
+            <li class="li-dark">
+                <img src="../images/slider/i2.jpg">
+                <section class="caption">
+                
+                </section>
+            </li>
+            <li class="li-dark">
+                <img src="../images/slider/i3.jpg">
+                <section class="caption">
+                    
+                </section>
+            </li>
+            <li class="li-dark">
+                <img src="../images/slider/i4.jpg">
+                <section class="caption">
+                    
+                </section>
+            </li>
+        </ul>
+        <ol class="pagination"></ol>
+    </div>
+
+    <section class="categoriaListaProducots">
+        <aside>
+            <h2>Categorias</h2>
+            <ul>
+                <li><a href="">Categoria 1</a></li>
+                <li><a href="">Categoria 2</a></li>
+                <li><a href="">Categoria 3</a></li>
+                <li><a href="">Categoria 4</a></li>
+            </ul>
+        </aside>
+        <article>
+            <h2>Detalles del producto</h2>
+            <div class="infoDetalle">
+                <img src="../images/productos/1.jpg" alt="">
+                <div class="pDetalles">
+                    <p class="categoriaDetalle">Categoria</p>
+                    <p class="nombreProductoDetalle">Producto 1</p>
+                    <p class="precioDetalle">$ 10.000</p>
+                    <p class="descripcionDetalle">Descripción corta del producto</p>
+                </div>
+            </div>
+            <p style="text-align: left;">
+                Descripcion larga del producto, detalles y demas. Para
+                esta parte se recomienda contar con un editor CKEditor.
+                <br>    
+            </p>
+            <p style="text-align: left;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ut at cum enim! Sit, pariatur. Porro asperiores quam sed qui possimus vel autem neque facilis aut odit. Repellat, libero non?</p>
+        </article>
+    </section>
+
+    <footer>
+        <div>
+            <h1>Información de conctacto</h1>
+            <ul>
+                <li>Email: tienda@gmail.com</li>
+                <li>Telefonos de contacto: +77777777</li>
+            </ul>
+        </div>
+        <div class="iconos">
+            <div>
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            <button class="boton" onclick="contacto()">Contactanos</button>
+        </div>
+    </footer>
+    <div class="copyright">Copyright y demas</div>
+    <script src="../js/main.js"></script>
+    <script src="../js/slider.js"></script>
+</body>
+</html>
